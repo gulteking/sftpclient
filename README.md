@@ -2,6 +2,9 @@
 
 Simple sftp file upload service. Only password login is supported.
 
+Sends given file to an ssh server to given path. If file exists, it will overwrite. 
+
+
 To compile and run project,
 
 1- mvn package
@@ -13,4 +16,3 @@ To compile and run project,
 And project listens http://localhost:8080/file/upload
 
 You can check required parameters from controller file.
-
